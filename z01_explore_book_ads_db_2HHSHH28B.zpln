@@ -1,0 +1,791 @@
+﻿{
+  "paragraphs": [
+    {
+      "text": "%md\n\n## Browse node data:",
+      "user": "anonymous",
+      "dateUpdated": "2022-10-19T19:44:07+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<h2>Browse node data:</h2>\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1666208647200_412447671",
+      "id": "paragraph_1666200951018_1894638049",
+      "dateCreated": "2022-10-19T19:44:07+0000",
+      "status": "READY",
+      "focus": true,
+      "$$hashKey": "object:7885"
+    },
+    {
+      "text": "%sh\naws s3 ls s3://book-ads-data-lake-prod/asin/book_asin_with_browse_nodes/1/",
+      "user": "anonymous",
+      "dateUpdated": "2022-10-19T19:44:07+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/sh",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "                           PRE 2022-04-14/\n                           PRE 2022-04-15/\n                           PRE 2022-04-16/\n                           PRE 2022-04-17/\n                           PRE 2022-04-18/\n                           PRE 2022-04-19/\n                           PRE 2022-04-20/\n                           PRE 2022-04-21/\n                           PRE 2022-04-22/\n                           PRE 2022-04-23/\n                           PRE 2022-04-24/\n                           PRE 2022-04-25/\n                           PRE 2022-04-26/\n                           PRE 2022-04-27/\n                           PRE 2022-04-28/\n                           PRE 2022-04-29/\n                           PRE 2022-04-30/\n                           PRE 2022-05-01/\n                           PRE 2022-05-02/\n                           PRE 2022-05-03/\n                           PRE 2022-05-04/\n                           PRE 2022-05-05/\n                           PRE 2022-05-11/\n                           PRE 2022-05-12/\n                           PRE 2022-05-13/\n                           PRE 2022-05-14/\n                           PRE 2022-05-15/\n                           PRE 2022-05-16/\n                           PRE 2022-05-17/\n                           PRE 2022-05-18/\n                           PRE 2022-05-19/\n                           PRE 2022-05-20/\n                           PRE 2022-05-21/\n                           PRE 2022-05-22/\n                           PRE 2022-05-23/\n                           PRE 2022-05-24/\n                           PRE 2022-05-25/\n                           PRE 2022-05-26/\n                           PRE 2022-05-27/\n                           PRE 2022-05-28/\n                           PRE 2022-05-29/\n                           PRE 2022-05-30/\n                           PRE 2022-05-31/\n                           PRE 2022-06-01/\n                           PRE 2022-06-03/\n                           PRE 2022-06-04/\n                           PRE 2022-06-05/\n                           PRE 2022-06-06/\n                           PRE 2022-06-07/\n                           PRE 2022-06-08/\n                           PRE 2022-06-09/\n                           PRE 2022-06-10/\n                           PRE 2022-06-11/\n                           PRE 2022-06-12/\n                           PRE 2022-06-13/\n                           PRE 2022-06-14/\n                           PRE 2022-06-15/\n                           PRE 2022-06-16/\n                           PRE 2022-06-17/\n                           PRE 2022-06-18/\n                           PRE 2022-06-19/\n                           PRE 2022-06-20/\n                           PRE 2022-06-21/\n                           PRE 2022-06-22/\n                           PRE 2022-06-23/\n                           PRE 2022-06-24/\n                           PRE 2022-06-25/\n                           PRE 2022-06-26/\n                           PRE 2022-06-27/\n                           PRE 2022-06-28/\n                           PRE 2022-06-29/\n                           PRE 2022-06-30/\n                           PRE 2022-07-01/\n                           PRE 2022-07-02/\n                           PRE 2022-07-03/\n                           PRE 2022-07-04/\n                           PRE 2022-07-05/\n                           PRE 2022-07-06/\n                           PRE 2022-07-07/\n                           PRE 2022-07-08/\n                           PRE 2022-07-09/\n                           PRE 2022-07-10/\n                           PRE 2022-07-11/\n                           PRE 2022-07-12/\n                           PRE 2022-07-13/\n                           PRE 2022-07-14/\n                           PRE 2022-07-15/\n                           PRE 2022-07-16/\n                           PRE 2022-07-17/\n                           PRE 2022-07-18/\n                           PRE 2022-07-19/\n                           PRE 2022-07-20/\n                           PRE 2022-07-21/\n                           PRE 2022-07-22/\n                           PRE 2022-07-23/\n                           PRE 2022-07-24/\n                           PRE 2022-07-25/\n                           PRE 2022-07-26/\n                           PRE 2022-07-27/\n                           PRE 2022-07-28/\n                           PRE 2022-07-29/\n                           PRE 2022-07-30/\n                           PRE 2022-07-31/\n                           PRE 2022-08-01/\n                           PRE 2022-08-02/\n                           PRE 2022-08-03/\n                           PRE 2022-08-04/\n                           PRE 2022-08-05/\n                           PRE 2022-08-06/\n                           PRE 2022-08-07/\n                           PRE 2022-08-08/\n                           PRE 2022-08-09/\n                           PRE 2022-08-10/\n                           PRE 2022-08-11/\n                           PRE 2022-08-12/\n                           PRE 2022-08-13/\n                           PRE 2022-08-14/\n                           PRE 2022-08-15/\n                           PRE 2022-08-16/\n                           PRE 2022-08-17/\n                           PRE 2022-08-18/\n                           PRE 2022-08-19/\n                           PRE 2022-08-20/\n                           PRE 2022-08-21/\n                           PRE 2022-08-22/\n                           PRE 2022-08-23/\n                           PRE 2022-08-24/\n                           PRE 2022-08-25/\n                           PRE 2022-08-26/\n                           PRE 2022-08-27/\n                           PRE 2022-08-28/\n                           PRE 2022-08-29/\n                           PRE 2022-08-30/\n                           PRE 2022-08-31/\n                           PRE 2022-09-01/\n                           PRE 2022-09-02/\n                           PRE 2022-09-03/\n                           PRE 2022-09-04/\n                           PRE 2022-09-05/\n                           PRE 2022-09-06/\n                           PRE 2022-09-07/\n                           PRE 2022-09-08/\n                           PRE 2022-09-09/\n                           PRE 2022-09-10/\n                           PRE 2022-09-12/\n                           PRE 2022-09-13/\n                           PRE 2022-09-14/\n                           PRE 2022-09-15/\n                           PRE 2022-09-16/\n                           PRE 2022-09-17/\n                           PRE 2022-09-18/\n                           PRE 2022-09-19/\n                           PRE 2022-09-20/\n                           PRE 2022-09-21/\n                           PRE 2022-09-22/\n                           PRE 2022-09-23/\n                           PRE 2022-09-24/\n                           PRE 2022-09-25/\n                           PRE 2022-09-26/\n                           PRE 2022-09-27/\n                           PRE 2022-09-28/\n                           PRE 2022-09-29/\n                           PRE 2022-09-30/\n                           PRE 2022-10-01/\n                           PRE 2022-10-02/\n                           PRE 2022-10-03/\n                           PRE 2022-10-04/\n                           PRE 2022-10-05/\n                           PRE 2022-10-06/\n                           PRE 2022-10-07/\n                           PRE 2022-10-08/\n                           PRE 2022-10-09/\n                           PRE 2022-10-10/\n                           PRE 2022-10-11/\n                           PRE 2022-10-12/\n                           PRE 2022-10-13/\n                           PRE 2022-10-14/\n                           PRE 2022-10-15/\n                           PRE 2022-10-16/\n                           PRE 2022-10-17/\n                           PRE 2022-10-18/\n                           PRE 2022-10-19/\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1666208647200_439721068",
+      "id": "paragraph_1666200996774_884869523",
+      "dateCreated": "2022-10-19T19:44:07+0000",
+      "status": "READY",
+      "$$hashKey": "object:7886"
+    },
+    {
+      "text": "import spark.implicits._\nimport org.apache.spark.sql._\nimport org.apache.spark.sql.functions._\nimport org.apache.spark.sql.types._\nimport org.apache.spark.sql.expressions._\nimport org.apache.spark.sql.SaveMode._\nimport org.apache.spark.sql.catalyst.expressions.aggregate._\nimport scala.util.Random",
+      "user": "anonymous",
+      "dateUpdated": "2022-10-19T19:44:07+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "import spark.implicits._\nimport org.apache.spark.sql._\nimport org.apache.spark.sql.functions._\nimport org.apache.spark.sql.types._\nimport org.apache.spark.sql.expressions._\nimport org.apache.spark.sql.SaveMode._\nimport org.apache.spark.sql.catalyst.expressions.aggregate._\nimport scala.util.Random\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1666208647200_57440362",
+      "id": "paragraph_1666201217414_742373329",
+      "dateCreated": "2022-10-19T19:44:07+0000",
+      "status": "READY",
+      "$$hashKey": "object:7887"
+    },
+    {
+      "text": "val df = spark.read.parquet(\"s3://book-ads-data-lake-prod/asin/book_asin_with_browse_nodes/1/2022-10-19/\")\ndf.printSchema",
+      "user": "anonymous",
+      "dateUpdated": "2022-10-19T19:44:07+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "editorHide": false,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "root\n |-- marketplace_id: decimal(38,0) (nullable = true)\n |-- browse_node_id: decimal(38,0) (nullable = true)\n |-- asin: string (nullable = true)\n |-- gl_product_group: long (nullable = true)\n |-- browse_node_name: string (nullable = true)\n |-- genre_level: integer (nullable = true)\n |-- root_genre: decimal(38,0) (nullable = true)\n |-- root_browse_node_id: decimal(38,0) (nullable = true)\n\n\u001b[1m\u001b[34mdf\u001b[0m: \u001b[1m\u001b[32morg.apache.spark.sql.DataFrame\u001b[0m = [marketplace_id: decimal(38,0), browse_node_id: decimal(38,0) ... 6 more fields]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1666208647200_1813283424",
+      "id": "paragraph_1666200977158_515419303",
+      "dateCreated": "2022-10-19T19:44:07+0000",
+      "status": "READY",
+      "$$hashKey": "object:7888"
+    },
+    {
+      "text": "df.show",
+      "user": "anonymous",
+      "dateUpdated": "2022-10-19T19:44:07+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "+--------------+--------------+----------+----------------+--------------------+-----------+----------+-------------------+\n|marketplace_id|browse_node_id|      asin|gl_product_group|    browse_node_name|genre_level|root_genre|root_browse_node_id|\n+--------------+--------------+----------+----------------+--------------------+-----------+----------+-------------------+\n|             1|         11891|0007980485|              14|  Publishing & Books|          2|        21|             283155|\n|             1|    6158312011|0061139726|              14|Home Improvement ...|          1|        48|             283155|\n|             1|         14545|007121688X|              14|             Physics|          1|        75|             283155|\n|             1|          4233|0099713705|              14|             General|          1|         6|             283155|\n|             1|        657762|0124386601|              14|             General|          1|         5|             283155|\n|             1|            75|0132757362|              14|      Science & Math|          0|        75|             283155|\n|             1|     713290011|0243913036|              14|             General|          1|         9|             283155|\n|             1|            22|0259197297|              14|Religion & Spirit...|          0|        22|             283155|\n|             1|         12333|0275983315|              14|    Christian Living|          1|     12290|             283155|\n|             1|          4935|0304333417|              14|              Europe|          1|         9|             283155|\n|             1|         11093|0313252971|              14|International & W...|          2|3377866011|             283155|\n|             1|       1205142|0341706256|              14|             General|          2|         9|             283155|\n|             1|            21|0343881802|              14|           Reference|          0|        21|             283155|\n|             1|     713290011|034427179X|              14|             General|          1|         9|             283155|\n|             1|          4233|0365243388|              14|             General|          1|         6|             283155|\n|             1|             5|0367373866|              14|Computers & Techn...|          0|         5|             283155|\n|             1|         13961|0367449560|              14|      Number Systems|          2|        75|             283155|\n|             1|      14278871|0393358151|              14|       State & Local|          3|         9|             283155|\n|             1|       1091216|0415343720|              14|      National Parks|          2|        27|             283155|\n|             1|            17|0440016630|              14|Literature & Fiction|          0|        17|             283155|\n+--------------+--------------+----------+----------------+--------------------+-----------+----------+-------------------+\nonly showing top 20 rows\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1666208647200_1872375534",
+      "id": "paragraph_1666201019959_704177423",
+      "dateCreated": "2022-10-19T19:44:07+0000",
+      "status": "READY",
+      "$$hashKey": "object:7889"
+    },
+    {
+      "text": "println(s\"number obs: ${df.count}\")\nval asin_cnt = df.select(\"asin\").distinct.count\nprintln(s\"number asin: ${asin_cnt}\")\nval node_id_cnt = df.select(\"browse_node_id\").distinct.count\nprintln(s\"number of browse node id: ${node_id_cnt}\")\nval node_name_cnt = df.select(\"browse_node_name\").distinct.count\nprintln(s\"number of browse node name: ${node_name_cnt}\")\nval genre_level_cnt = df.select(\"genre_level\").distinct.count\nprintln(s\"number of genre level: ${genre_level_cnt}\")\nval root_cnt = df.select(\"root_genre\").distinct.count\nprintln(s\"root genre count: ${root_cnt}\")\nval root_id_cnt = df.select(\"root_browse_node_id\").distinct.count\nprintln(s\"root browse node id count: ${root_id_cnt}\")",
+      "user": "anonymous",
+      "dateUpdated": "2022-10-19T19:44:07+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "number obs: 2502895944\nnumber asin: 141456421\nnumber of browse node id: 36860\nnumber of browse node name: 9950\nnumber of genre level: 8\nroot genre count: 209\nroot browse node id count: 7\n\u001b[1m\u001b[34masin_cnt\u001b[0m: \u001b[1m\u001b[32mLong\u001b[0m = 141456421\n\u001b[1m\u001b[34mnode_id_cnt\u001b[0m: \u001b[1m\u001b[32mLong\u001b[0m = 36860\n\u001b[1m\u001b[34mnode_name_cnt\u001b[0m: \u001b[1m\u001b[32mLong\u001b[0m = 9950\n\u001b[1m\u001b[34mgenre_level_cnt\u001b[0m: \u001b[1m\u001b[32mLong\u001b[0m = 8\n\u001b[1m\u001b[34mroot_cnt\u001b[0m: \u001b[1m\u001b[32mLong\u001b[0m = 209\n\u001b[1m\u001b[34mroot_id_cnt\u001b[0m: \u001b[1m\u001b[32mLong\u001b[0m = 7\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1666208647200_254689351",
+      "id": "paragraph_1666201019744_2125876142",
+      "dateCreated": "2022-10-19T19:44:07+0000",
+      "status": "READY",
+      "$$hashKey": "object:7890"
+    },
+    {
+      "text": "%md\n\n### genre level and root genre\n\nin the example below for the same ASIN:\n\n> * browse node id = 21: /Books/Subjects/Reference;\n> * because leaf node (browse node name) is \"Reference\", it stops right after /Books/Subjects/, its genre level is at position 0;\n> * root genre (node id associated with position 0) is \"Reference\", which has id 21;\n\n----\n\n> * browse node is = 10605: /Books/Subjects/Education & Teaching/Schools & Teaching/Education;\n> * because leaf node is \"Education\", which is at position 2, its genre level is 2;\n> * its root genre (pos 0) is Education & Teaching, which has id 8975347011, which is the root_genre value;",
+      "user": "anonymous",
+      "dateUpdated": "2022-10-19T19:44:07+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<h3>genre level and root genre</h3>\n<p>in the example below for the same ASIN:</p>\n<blockquote><ul>\n<li>browse node id = 21: /Books/Subjects/Reference;</li>\n<li>because leaf node (browse node name) is &ldquo;Reference&rdquo;, it stops right after /Books/Subjects/, its genre level is at position 0;</li>\n<li>root genre (node id associated with position 0) is &ldquo;Reference&rdquo;, which has id 21;</li>\n</ul>\n</blockquote>\n<hr />\n<blockquote><ul>\n<li>browse node is = 10605: /Books/Subjects/Education &amp; Teaching/Schools &amp; Teaching/Education;</li>\n<li>because leaf node is &ldquo;Education&rdquo;, which is at position 2, its genre level is 2;</li>\n<li>its root genre (pos 0) is Education &amp; Teaching, which has id 8975347011, which is the root_genre value;</li>\n</ul>\n</blockquote>\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1666208647201_2123022886",
+      "id": "paragraph_1666208312484_705054905",
+      "dateCreated": "2022-10-19T19:44:07+0000",
+      "status": "READY",
+      "$$hashKey": "object:7891"
+    },
+    {
+      "text": "// asin example\ndf.filter($\"asin\" === \"0007980485\")\n  .orderBy(\"asin\", \"browse_node_id\")\n  .show(100,false)",
+      "user": "anonymous",
+      "dateUpdated": "2022-10-19T19:44:07+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "+--------------+--------------+----------+----------------+-------------------------------------+-----------+----------+-------------------+\n|marketplace_id|browse_node_id|asin      |gl_product_group|browse_node_name                     |genre_level|root_genre|root_browse_node_id|\n+--------------+--------------+----------+----------------+-------------------------------------+-----------+----------+-------------------+\n|1             |21            |0007980485|14              |Reference                            |0          |21        |283155             |\n|1             |28            |0007980485|14              |Teen & Young Adult                   |0          |28        |283155             |\n|1             |10605         |0007980485|14              |Education                            |2          |8975347011|283155             |\n|1             |10635         |0007980485|14              |General                              |2          |8975347011|283155             |\n|1             |11823         |0007980485|14              |English as a Second Language         |1          |21        |283155             |\n|1             |11891         |0007980485|14              |Publishing & Books                   |2          |21        |283155             |\n|1             |14282421      |0007980485|14              |Bibliographies & Indexes             |3          |21        |283155             |\n|1             |14282491      |0007980485|14              |Literature                           |4          |21        |283155             |\n|1             |3344092011    |0007980485|14              |Education & Reference                |1          |28        |283155             |\n|1             |3344094011    |0007980485|14              |Language Arts                        |2          |28        |283155             |\n|1             |5267707011    |0007980485|14              |Writing, Research & Publishing Guides|1          |21        |283155             |\n|1             |5267708011    |0007980485|14              |Schools & Teaching                   |1          |8975347011|283155             |\n|1             |8975347011    |0007980485|14              |Education & Teaching                 |0          |8975347011|283155             |\n|1             |10367686011   |0007980485|14              |Foreign Language Study               |2          |28        |283155             |\n|1             |10367687011   |0007980485|14              |English as a Second Language         |3          |28        |283155             |\n+--------------+--------------+----------+----------------+-------------------------------------+-----------+----------+-------------------+\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1666208647201_2103464218",
+      "id": "paragraph_1666201019534_702090707",
+      "dateCreated": "2022-10-19T19:44:07+0000",
+      "status": "READY",
+      "$$hashKey": "object:7892"
+    },
+    {
+      "text": "// browse node name:\ndf.filter($\"browse_node_name\".contains(\"Biographies & Memoirs\"))\n  .orderBy(\"asin\")\n  .show(50, false)",
+      "user": "anonymous",
+      "dateUpdated": "2022-10-19T19:44:07+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "+--------------+--------------+----------+----------------+---------------------+-----------+----------+-------------------+\n|marketplace_id|browse_node_id|asin      |gl_product_group|browse_node_name     |genre_level|root_genre|root_browse_node_id|\n+--------------+--------------+----------+----------------+---------------------+-----------+----------+-------------------+\n|7             |934986        |0000005002|14              |Biographies & Memoirs|0          |934986    |916520             |\n|7             |934986        |0000020532|14              |Biographies & Memoirs|0          |934986    |916520             |\n|1             |2             |0000020532|14              |Biographies & Memoirs|0          |2         |283155             |\n|1             |2             |0000025038|14              |Biographies & Memoirs|0          |2         |283155             |\n|1             |2             |0000043540|14              |Biographies & Memoirs|0          |2         |283155             |\n|7             |934986        |0000050016|14              |Biographies & Memoirs|0          |934986    |916520             |\n|1             |2             |0000050016|14              |Biographies & Memoirs|0          |2         |283155             |\n|1             |2             |0000050083|14              |Biographies & Memoirs|0          |2         |283155             |\n|7             |934986        |0000050091|14              |Biographies & Memoirs|0          |934986    |916520             |\n|1             |2             |0000050091|14              |Biographies & Memoirs|0          |2         |283155             |\n|1             |2             |0000050113|14              |Biographies & Memoirs|0          |2         |283155             |\n|7             |934986        |0000050113|14              |Biographies & Memoirs|0          |934986    |916520             |\n|7             |934986        |0000050148|14              |Biographies & Memoirs|0          |934986    |916520             |\n|1             |2             |0000050148|14              |Biographies & Memoirs|0          |2         |283155             |\n|7             |934986        |0000050156|14              |Biographies & Memoirs|0          |934986    |916520             |\n|7             |934986        |0000050202|14              |Biographies & Memoirs|0          |934986    |916520             |\n|1             |2             |0000050210|14              |Biographies & Memoirs|0          |2         |283155             |\n|7             |934986        |0000050210|14              |Biographies & Memoirs|0          |934986    |916520             |\n|1             |2             |0000171220|14              |Biographies & Memoirs|0          |2         |283155             |\n|1             |2             |0000176281|14              |Biographies & Memoirs|0          |2         |283155             |\n|1             |2             |000021888X|14              |Biographies & Memoirs|0          |2         |283155             |\n|7             |934986        |000021888X|14              |Biographies & Memoirs|0          |934986    |916520             |\n|1             |2             |0000222887|14              |Biographies & Memoirs|0          |2         |283155             |\n|7             |934986        |0000576530|14              |Biographies & Memoirs|0          |934986    |916520             |\n|1             |2             |0000576530|14              |Biographies & Memoirs|0          |2         |283155             |\n|1             |2             |0000670227|14              |Biographies & Memoirs|0          |2         |283155             |\n|1             |2             |0000670553|14              |Biographies & Memoirs|0          |2         |283155             |\n|1             |2             |0000673064|14              |Biographies & Memoirs|0          |2         |283155             |\n|1             |2             |0000675296|14              |Biographies & Memoirs|0          |2         |283155             |\n|1             |2             |0000676365|14              |Biographies & Memoirs|0          |2         |283155             |\n|7             |934986        |0000678902|14              |Biographies & Memoirs|0          |934986    |916520             |\n|1             |2             |0000678902|14              |Biographies & Memoirs|0          |2         |283155             |\n|1             |2             |0000773492|14              |Biographies & Memoirs|0          |2         |283155             |\n|1             |2             |0000779466|14              |Biographies & Memoirs|0          |2         |283155             |\n|7             |934986        |0001046446|14              |Biographies & Memoirs|0          |934986    |916520             |\n|1             |2             |0001046659|14              |Biographies & Memoirs|0          |2         |283155             |\n|7             |934986        |0001046713|14              |Biographies & Memoirs|0          |934986    |916520             |\n|7             |934986        |0001046721|14              |Biographies & Memoirs|0          |934986    |916520             |\n|7             |934986        |0001046772|14              |Biographies & Memoirs|0          |934986    |916520             |\n|1             |2             |0001046772|14              |Biographies & Memoirs|0          |2         |283155             |\n|1             |2             |0001047280|14              |Biographies & Memoirs|0          |2         |283155             |\n|7             |934986        |0001047620|14              |Biographies & Memoirs|0          |934986    |916520             |\n|1             |2             |0001047620|14              |Biographies & Memoirs|0          |2         |283155             |\n|7             |934986        |000104771X|14              |Biographies & Memoirs|0          |934986    |916520             |\n|7             |934986        |0001047876|14              |Biographies & Memoirs|0          |934986    |916520             |\n|1             |2             |0001047876|14              |Biographies & Memoirs|0          |2         |283155             |\n|7             |934986        |0001047906|14              |Biographies & Memoirs|0          |934986    |916520             |\n|7             |934986        |0001047965|14              |Biographies & Memoirs|0          |934986    |916520             |\n|1             |2             |0001047965|14              |Biographies & Memoirs|0          |2         |283155             |\n|7             |934986        |0001049038|14              |Biographies & Memoirs|0          |934986    |916520             |\n+--------------+--------------+----------+----------------+---------------------+-----------+----------+-------------------+\nonly showing top 50 rows\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1666208647201_210975712",
+      "id": "paragraph_1666201019214_2103184877",
+      "dateCreated": "2022-10-19T19:44:07+0000",
+      "status": "READY",
+      "$$hashKey": "object:7893"
+    },
+    {
+      "text": "%md\n\n### browse node name and browse node id:\n\n> * one name to multiple id;\n> * one id to one name;",
+      "user": "anonymous",
+      "dateUpdated": "2022-10-19T19:44:07+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<h3>browse node name and browse node id:</h3>\n<blockquote><ul>\n<li>one name to multiple id;</li>\n<li>one id to one name;</li>\n</ul>\n</blockquote>\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1666208647201_2021992375",
+      "id": "paragraph_1666205565200_1182822782",
+      "dateCreated": "2022-10-19T19:44:07+0000",
+      "status": "READY",
+      "$$hashKey": "object:7894"
+    },
+    {
+      "text": "df.select(\"browse_node_name\", \"browse_node_id\")\n  .distinct\n  .groupBy(\"browse_node_name\")\n  .agg(count($\"browse_node_id\").as(\"id_cnt\"))\n  .orderBy($\"id_cnt\".desc)\n  .show(20, false)",
+      "user": "anonymous",
+      "dateUpdated": "2022-10-19T19:44:07+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "+------------------+------+\n|browse_node_name  |id_cnt|\n+------------------+------+\n|General           |2716  |\n|Fiction           |348   |\n|Nonfiction        |315   |\n|Livres français   |262   |\n|Ficción           |225   |\n|Reference         |197   |\n|No Ficción        |196   |\n|History           |154   |\n|United States     |94    |\n|Historical        |88    |\n|Referencia        |82    |\n|Romance           |75    |\n|Action & Adventure|69    |\n|Medieval          |67    |\n|Sports            |60    |\n|Asia              |57    |\n|Fantasy           |56    |\n|Science Fiction   |56    |\n|Research          |54    |\n|Canada            |52    |\n+------------------+------+\nonly showing top 20 rows\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1666208647201_2098874905",
+      "id": "paragraph_1666201018739_954118288",
+      "dateCreated": "2022-10-19T19:44:07+0000",
+      "status": "READY",
+      "$$hashKey": "object:7895"
+    },
+    {
+      "text": "%md\n\nIn the example below, \n\n> * id = 12022 means \"/Books/Subjects/Reference/Writing, Research & Publishing Guides/Writing/Fiction\";\n> * id = 886508 means \"/Books/Subjects/Children's Books/Animals/Fiction\";\n\nwe see that the \"browse_node_name\" is just the leaf node description, browse node id is the unique path id;",
+      "user": "anonymous",
+      "dateUpdated": "2022-10-19T19:44:07+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<p>In the example below,</p>\n<blockquote><ul>\n<li>id = 12022 means &ldquo;/Books/Subjects/Reference/Writing, Research &amp; Publishing Guides/Writing/Fiction&rdquo;;</li>\n<li>id = 886508 means &ldquo;/Books/Subjects/Children's Books/Animals/Fiction&rdquo;;</li>\n</ul>\n</blockquote>\n<p>we see that the &ldquo;browse_node_name&rdquo; is just the leaf node description, browse node id is the unique path id;</p>\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1666208647201_1878919103",
+      "id": "paragraph_1666205972609_1311918650",
+      "dateCreated": "2022-10-19T19:44:07+0000",
+      "status": "READY",
+      "$$hashKey": "object:7896"
+    },
+    {
+      "text": "df.select(\"browse_node_name\", \"browse_node_id\")\n  .distinct\n  .filter($\"browse_node_name\" === \"Fiction\")\n  .orderBy(\"browse_node_id\")\n  .show(20, false)",
+      "user": "anonymous",
+      "dateUpdated": "2022-10-19T19:44:07+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "+----------------+--------------+\n|browse_node_name|browse_node_id|\n+----------------+--------------+\n|Fiction         |12022         |\n|Fiction         |886508        |\n|Fiction         |942330        |\n|Fiction         |953016        |\n|Fiction         |954528        |\n|Fiction         |959240        |\n|Fiction         |155013011     |\n|Fiction         |155016011     |\n|Fiction         |155019011     |\n|Fiction         |155022011     |\n|Fiction         |155025011     |\n|Fiction         |155028011     |\n|Fiction         |155031011     |\n|Fiction         |155033011     |\n|Fiction         |155035011     |\n|Fiction         |155038011     |\n|Fiction         |155041011     |\n|Fiction         |155044011     |\n|Fiction         |155048011     |\n|Fiction         |155051011     |\n+----------------+--------------+\nonly showing top 20 rows\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1666208647201_1852619574",
+      "id": "paragraph_1666205813660_1601199662",
+      "dateCreated": "2022-10-19T19:44:07+0000",
+      "status": "READY",
+      "$$hashKey": "object:7897"
+    },
+    {
+      "text": "df.select(\"browse_node_name\", \"browse_node_id\")\n  .distinct\n  .groupBy(\"browse_node_id\")\n  .agg(count($\"browse_node_name\").as(\"name_cnt\"))\n  .orderBy($\"name_cnt\".desc)\n  .show(20, false)",
+      "user": "anonymous",
+      "dateUpdated": "2022-10-19T19:44:07+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "+--------------+--------+\n|browse_node_id|name_cnt|\n+--------------+--------+\n|18573680011   |1       |\n|942686        |1       |\n|953446        |1       |\n|5785597011    |1       |\n|16657         |1       |\n|6867298011    |1       |\n|961204        |1       |\n|15249159011   |1       |\n|5789176011    |1       |\n|935148        |1       |\n|6190477011    |1       |\n|935126        |1       |\n|8407409011    |1       |\n|377611011     |1       |\n|5792336011    |1       |\n|13372         |1       |\n|9575622011    |1       |\n|690419011     |1       |\n|9575613011    |1       |\n|5790711011    |1       |\n+--------------+--------+\nonly showing top 20 rows\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1666208647201_254861721",
+      "id": "paragraph_1666202709270_1796794688",
+      "dateCreated": "2022-10-19T19:44:07+0000",
+      "status": "READY",
+      "$$hashKey": "object:7898"
+    },
+    {
+      "text": "%md\n\n### Root browse node id\n\nafter manual search using node ID search bar on https://browse-classification-na.amazon.com/BrowseRefinementsBrowser.do?nodeID=18145289011&filters=&marketplaceID=1&changeListIDs=&merchantID=0&customerID=0&maxLimit=25, I got the following:\n\n283155: books;\n916520: search result not available;\n133140011: kindle store;\n2972705011: search result not available;\n6446439011: search result not available;\n9298576011: search result not available;\n18145289011: Audible Books & Originals;",
+      "user": "anonymous",
+      "dateUpdated": "2022-10-19T19:44:07+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<h3>Root browse node id</h3>\n<p>after manual search using node ID search bar on https://browse-classification-na.amazon.com/BrowseRefinementsBrowser.do?nodeID=18145289011&amp;filters=&amp;marketplaceID=1&amp;changeListIDs=&amp;merchantID=0&amp;customerID=0&amp;maxLimit=25, I got the following:</p>\n<p>283155: books;\n<br  />916520: search result not available;\n<br  />133140011: kindle store;\n<br  />2972705011: search result not available;\n<br  />6446439011: search result not available;\n<br  />9298576011: search result not available;\n<br  />18145289011: Audible Books &amp; Originals;</p>\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1666208647201_970844681",
+      "id": "paragraph_1666206215339_846994933",
+      "dateCreated": "2022-10-19T19:44:07+0000",
+      "status": "READY",
+      "$$hashKey": "object:7899"
+    },
+    {
+      "text": "df.groupBy(\"root_browse_node_id\")\n  .agg(count(\"asin\").as(\"volume\"))\n  .orderBy(desc(\"volume\"))\n  .show(false)",
+      "user": "anonymous",
+      "dateUpdated": "2022-10-19T19:44:07+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "+-------------------+---------+\n|root_browse_node_id|volume   |\n+-------------------+---------+\n|9298576011         |707699872|\n|916520             |595591380|\n|283155             |585237886|\n|133140011          |212279629|\n|6446439011         |207723023|\n|2972705011         |186548973|\n|18145289011        |7815181  |\n+-------------------+---------+\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1666208647201_124613505",
+      "id": "paragraph_1666202708168_781674000",
+      "dateCreated": "2022-10-19T19:44:07+0000",
+      "status": "READY",
+      "$$hashKey": "object:7900"
+    },
+    {
+      "user": "anonymous",
+      "dateUpdated": "2022-10-19T19:44:07+0000",
+      "progress": 0,
+      "config": {
+        "colWidth": 12,
+        "fontSize": 9,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1666208647201_1297846673",
+      "id": "paragraph_1666202706897_1253976776",
+      "dateCreated": "2022-10-19T19:44:07+0000",
+      "status": "READY",
+      "$$hashKey": "object:7901"
+    },
+    {
+      "user": "anonymous",
+      "dateUpdated": "2022-10-19T19:44:07+0000",
+      "progress": 0,
+      "config": {
+        "colWidth": 12,
+        "fontSize": 9,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1666208647201_102348488",
+      "id": "paragraph_1666202705584_1671293022",
+      "dateCreated": "2022-10-19T19:44:07+0000",
+      "status": "READY",
+      "$$hashKey": "object:7902"
+    },
+    {
+      "user": "anonymous",
+      "dateUpdated": "2022-10-19T19:44:07+0000",
+      "progress": 0,
+      "config": {
+        "colWidth": 12,
+        "fontSize": 9,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1666208647201_1934164753",
+      "id": "paragraph_1666201018075_2006147670",
+      "dateCreated": "2022-10-19T19:44:07+0000",
+      "status": "READY",
+      "$$hashKey": "object:7903"
+    },
+    {
+      "user": "anonymous",
+      "dateUpdated": "2022-10-19T19:44:07+0000",
+      "progress": 0,
+      "config": {
+        "colWidth": 12,
+        "fontSize": 9,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1666208647201_699766147",
+      "id": "paragraph_1666201016556_1149202477",
+      "dateCreated": "2022-10-19T19:44:07+0000",
+      "status": "READY",
+      "$$hashKey": "object:7904"
+    }
+  ],
+  "name": "z01_explore_book_ads_db",
+  "id": "2HHSHH28B",
+  "defaultInterpreterGroup": "spark",
+  "version": "0.10.0",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": false,
+    "looknfeel": "default",
+    "personalizedMode": "false"
+  },
+  "info": {},
+  "path": "/z01_explore_book_ads_db"
+}
